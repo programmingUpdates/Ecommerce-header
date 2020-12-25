@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imall</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap');
+
+        :root {
+            --main-bg-color: brown;
+            --font1: 'Baloo Bhaina 2', cursive;
+            --font2: 'Roboto', sans-serif;
+        }
+
+        .name {
+            font-family: var(--font1);
+            font-weight: bolder;
+            color: white;
+        }
+
+
+       body {
+            margin: 0%;
+            background-color: #d6d6d6;
+            overflow-x: hidden;
+        }
+
+ .header
+ {
+    position: -webkit-sticky;
+            /* Safari */
+            position: sticky;
+            z-index: 3;
+            top: 0;
+ }
+
+
+    input[type=text] {
+            width: 40%;
+            padding: 6px 10px;
+            /*  margin: 3vw; */
+            margin-left: 210px;
+            margin-top: 1vw;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: solid 2px white;
+            border-radius: 15px;
+            -moz-border-radius: 15px;
+            outline: none;
+        }
+
+    .timg
+    {
+        height: 50px;
+        width: 50px;
+    }
+
+    .submit {
+                background-color: white;
+                padding: 4px 10px;
+                border-radius: 5px;
+                cursor: pointer;
+                color: royalblue;
+                border: none;
+                outline: none;
+                margin-left: 20px;
+                font-family: var(--font1);
+                font-size: small;
+                font-weight: bolder;
+            }
+
+            .submit:hover {
+            background-color: rgb(226, 248, 30);
+        }
+
+    </style>
+</head>
+<body>
+    <table border="0" width="100%" bgcolor="#2874F0" class="header">
+
+        <tr>
+        <td align="right"><img class="timg" src="shopping-cart_icon-icons.com_60593.png"></td>
+        <th class="name">imall</th>
+        <td><input type="text" placeholder="Search for products, brands and more"></td>
+        <th> <input type="button" value="Login" class="submit" onclick="login()"></th>
+        <th><img class="timg" src="10-2-cart-png-pic.png"></th>
+        </tr>
+    </table> 
+</body>
+</html>
